@@ -18,7 +18,7 @@ export function LiquidBlob({ children }: LiquidBlobProps) {
 
   // Get current active route
   const routes = [
-    { path: "/about", name: "about me" },
+    { path: "/about", name: "About Me" },
     { path: "/projects", name: "projects" },
     { path: "/playground", name: "playground" },
     { path: "/hobbies", name: "hobbies" },

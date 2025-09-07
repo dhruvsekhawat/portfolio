@@ -22,13 +22,13 @@ export function Sidebar({ children }: SidebarProps) {
 
   // Get current active route
   const routes = [
-    { path: "/about", name: "about me" },
-    { path: "/experiences", name: "experiences" },
-    { path: "/projects", name: "projects" },
-    { path: "/playground", name: "playground" },
-    { path: "/hobbies", name: "hobbies" },
-    { path: "/posts", name: "posts" },
-    { path: "/contacts", name: "contacts" },
+    { path: "/about", name: "About Me" },
+    { path: "/experiences", name: "Experiences" },
+    { path: "/projects", name: "Projects" },
+    { path: "/playground", name: "Playground" },
+    { path: "/hobbies", name: "Hobbies" },
+    { path: "/posts", name: "Posts" },
+    { path: "/contacts", name: "Contacts" },
   ];
 
   // Find current active index

@@ -38,7 +38,7 @@ export async function generateMetadata(props: TagProps): Promise<Metadata> {
     openGraph: {
       ...openGraph,
       title: `Li Yuxuan | tags | ${params.slug}`,
-      description: `A collection of my thoughts and experiences. These are some of the things I have written. Here are ${params.postCount} posts tagged with ${params.slug}.`,
+      description: `A collection of my thoughts and Experiences. These are some of the things I have written. Here are ${params.postCount} posts tagged with ${params.slug}.`,
     },
   };
 }
